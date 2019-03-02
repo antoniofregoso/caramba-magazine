@@ -1,0 +1,72 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_magazine_header
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-05 05:53+0000\n"
+"PO-Revision-Date: 2018-06-05 00:56-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: website_magazine_header
+#: model:ir.ui.view,arch_db:website_magazine_header.navbar_brand
+msgid "&amp;times"
+msgstr "&amp;times"
+
+#. module: website_magazine_header
+#: model:ir.ui.view,arch_db:website_magazine_header.navbar_brand
+msgid "<b>Sign in</b>"
+msgstr "<b>Iniciar sesión</b>"
+
+#. module: website_magazine_header
+#: model:ir.model.fields,field_description:website_magazine_header.field_res_config_settings_search_blog_id
+#: model:ir.model.fields,field_description:website_magazine_header.field_website_search_blog_id
+#: model:ir.ui.view,arch_db:website_magazine_header.res_config_settings_view_form
+msgid "Blog to Search"
+msgstr "Blog para Buscar"
+
+#. module: website_magazine_header
+#: model:ir.ui.view,arch_db:website_magazine_header.navbar_brand
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#. module: website_magazine_header
+#: model:ir.ui.view,arch_db:website_magazine_header.navbar_brand
+msgid "My Account"
+msgstr "Mi cuenta"
+
+#. module: website_magazine_header
+#: model:ir.ui.view,arch_db:website_magazine_header.res_config_settings_view_form
+msgid "Search"
+msgstr "Búsqueda"
+
+#. module: website_magazine_header
+#: model:ir.model.fields,help:website_magazine_header.field_res_config_settings_logo
+#: model:ir.model.fields,help:website_magazine_header.field_website_logo
+msgid "This field holds the logo for this website, showed in header. Recommended size is 180x50"
+msgstr "Este campo contiene el logotipo de este sitio web, que se muestra en el encabezado. El tamaño recomendado es 180x50"
+
+#. module: website_magazine_header
+#: model:ir.model,name:website_magazine_header.model_website
+msgid "Website"
+msgstr "Sitio web"
+
+#. module: website_magazine_header
+#: model:ir.model.fields,field_description:website_magazine_header.field_res_config_settings_logo
+#: model:ir.model.fields,field_description:website_magazine_header.field_website_logo
+msgid "Website logo"
+msgstr "Logo del sitio web"
+
+#. module: website_magazine_header
+#: model:ir.model,name:website_magazine_header.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"

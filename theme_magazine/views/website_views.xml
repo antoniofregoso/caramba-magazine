@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html). -->
+
+<odoo>
+	<data>
+		              
+            <record id="website_font_tree_view" model="ir.ui.view">
+	            <field name="name">theme.magazine.font.list</field>
+	            <field name="model">theme.magazine.font</field>
+	            <field name="arch" type="xml">
+	                <tree string="Google Fonts">
+	                	<field name="name"/>
+	                	<field name="family"/>
+	                	<field name="paring"/>	                
+	                </tree>
+	           </field>	           
+	       </record>   
+	       
+	       <record id="view_font_form" model="ir.ui.view">
+	            <field name="name">theme.magazine.font.form</field>
+	            <field name="model">theme.magazine.font</field>
+	            <field name="arch" type="xml">
+	                <form string="Google Font">
+	                	<group>
+	                		<group>
+	                			<field name="name"/>
+	                		</group>
+	                		<group>	                			
+	                			<field name="family"/>                		
+	                		</group>
+	                		<group>
+	                			<field name="paring"/>	
+	                		</group>
+	                	</group>	                	 	                
+	                </form>
+	            </field>
+           </record>  
+           
+          <record id="action_google_fonts" model="ir.actions.act_window">
+            <field name="name">Google Fonts</field>
+            <field name="res_model">theme.magazine.font</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+         </record>
+         
+		 <menuitem name="Google Fonts"
+            id="menu_website_fonts_list"
+            parent="website.menu_website_global_configuration"
+            action="action_google_fonts"
+            sequence="100"
+            groups="base.group_no_one"/>  
+	</data>
+</odoo>

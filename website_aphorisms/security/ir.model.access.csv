@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+website_aphorism_public,website_aphorism_public,model_website_aphorism,,1,0,0,0
+website_aphorism_editor,website_aphorism_editor,model_website_aphorism,website.group_website_designer,1,1,1,1
+website_aphorism_author_public,website_aphorism_author_public,model_website_aphorism_author,,1,0,0,0
+website_aphorism_author_editor,website_aphorism_author_editor,model_website_aphorism_author,website.group_website_designer,1,1,1,1

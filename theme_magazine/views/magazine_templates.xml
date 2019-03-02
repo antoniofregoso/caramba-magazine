@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!--  License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html). -->
+<odoo>
+
+
+ <!--    <template id="assets_editor" inherit_id="website.assets_editor">
+        <xpath expr=".">
+            <script type="text/javascript"
+                    src="/theme_magazine/static/lib/bootstrap-colorpicker/bootstrap-colorpicker.js"/>
+
+            <link rel="stylesheet" type="text/css"
+                  href="/theme_magazine/static/lib/bootstrap-colorpicker/bootstrap-colorpicker.css"/>
+            <link rel="stylesheet" type="text/css"
+                  href="/theme_magazine/static/src/css/theme_customize.css"/>
+        </xpath>
+    </template>  -->
+    
+	<template id="assets_frontend" inherit_id="website.assets_frontend">
+        <xpath expr=".">
+			 <!-- <script type="text/javascript"
+                    src="/theme_magazine/static/src/js/theme_magazine.frontend.js"/>	-->		
+            <link rel="stylesheet" type="text/css"
+                  href="theme_magazine/static/src/less/fix.css"/>
+            <link rel="stylesheet" type="text/css"
+                  href="theme_magazine/static/src/less/settings.less"/>
+            <link rel="stylesheet" type="text/css"
+                  href="theme_magazine/static/src/less/variables.less"/>
+            <link rel="stylesheet" type="text/css"
+                  href="theme_magazine/static/src/less/magazine.less"/>
+        </xpath>
+    </template>
+    
+       
+    
+	<template id="theme_customize_theme_magazine" inherit_id="website.theme_customize">
+        <xpath expr="div" position="replace">
+        	<div id="theme_customize_modal" class="modal fade">
+        		<div id="theme_customize_modal" class="modal fade">
+                	<div class="modal-dialog">
+                    	<div class="modal-content">
+                    		<div class="loading_backdrop"></div>
+                    		<div class="modal-header text-center">
+                            	<h4 class="modal-title">Customize theme</h4>
+                        	</div>
+                        	<div class="modal-body">
+                        		<ul class="nav nav-tabs">
+                        			<li>
+	                                    <a href="#tab-layout" data-toggle="tab">Layout</a>
+	                                </li>                      			
+	                                <li>
+	                                    <a href="#tab-brand" data-toggle="tab">Brand</a>
+	                                </li>                       			
+	                                <li>
+	                                    <a href="#tab-color" data-toggle="tab">Color</a>
+	                                </li>                       			
+	                                <li>
+	                                    <a href="#tab-fonts" data-toggle="tab">Fonts</a>
+	                                </li>                        			
+	                                <li>
+	                                    <a href="#tab-magazine" data-toggle="tab">Magazine</a>
+	                                </li> 
+	                                <li>
+	                                    <a href="#tab-css" data-toggle="tab">CSS</a>
+	                                </li>
+                        		</ul>
+                        		<div class="tab-content">
+                        			<div class="tab-pane" id="tab-layout">
+                        				<t t-call="theme_magazine.TabLayout"/>
+                        			</div>
+                        			<div class="tab-pane" id="tab-brand">
+                        				<t t-call="theme_magazine.TabBrand"/>
+                        			</div>
+                        			<div class="tab-pane" id="tab-color">
+                        				<t t-call="theme_magazine.TabColor"/>
+                        			</div>
+                        			<div class="tab-pane" id="tab-fonts">
+                        				<t t-call="theme_magazine.TabFonts"/>
+                        			</div>
+                        			<div class="tab-pane" id="tab-magazine">
+                        				<t t-call="theme_magazine.TabMagazine"/>
+                        			</div>
+                        			<div class="tab-pane" id="tab-css">
+                                    	<t t-call="theme_magazine.TabCss"/>
+                                	</div>
+                        		</div>
+                        	</div>                    		
+	                    	<div class="modal-footer">
+	                            <button class="btn btn-primary btn-apply" type="button">Apply</button>
+	                            or
+	                            <button class="btn btn-default btn-close" type="button">Close</button>
+	                        </div>
+                    	</div>
+                    </div>
+            	</div>
+        	</div>
+        </xpath>
+	</template>
+        
+
+</odoo>

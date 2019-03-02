@@ -1,0 +1,381 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_magazine
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-03 05:38+0000\n"
+"PO-Revision-Date: 2018-06-05 01:37-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.blog_post_short_seo
+msgid "&amp;mdash;"
+msgstr "&amp;mdash;"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_author
+#: model:ir.model.fields,field_description:website_magazine.field_website_author
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Author"
+msgstr "Autor"
+
+#. module: website_magazine
+#: selection:website,over_style:0 selection:website,style:0
+msgid "Black & Wite"
+msgstr "Blanco y Negro"
+
+#. module: website_magazine
+#: model:ir.model,name:website_magazine.model_blog_post
+msgid "Blog Post"
+msgstr "Entrada del blog"
+
+#. module: website_magazine
+#: selection:website,over_style:0 selection:website,style:0
+msgid "Blur"
+msgstr "Difuminado"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.blog_post_short_seo
+msgid "Click on \"New Page\" in the top-right corner to write your first blog post."
+msgstr "Haga clic en la opción \"Nueva página\" de la esquina superior derecha para escribir su primera entrada del blog."
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_style_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_style_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Danger"
+msgstr "Peligro"
+
+#. module: website_magazine
+#: model:ir.model.fields,help:website_magazine.field_blog_post_website_sequence
+msgid "Determine the display order in the Website Cover"
+msgstr "Determine el orden de visualización en la cubierta del sitio web"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_style_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_frosted_glass
+#: model:ir.model.fields,field_description:website_magazine.field_website_frosted_glass
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Frosted Glass"
+msgstr "Vidrio Escarchado"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_style_html_class
+msgid "HTML Classes"
+msgstr "Clases HTML"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_style_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Info"
+msgstr "Información"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.website_cover_page
+msgid "Item Size"
+msgstr "Tamaño de la imágen"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_style___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_style_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_style_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Magazine"
+msgstr "Revista"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Mouse Over"
+msgstr "Ratón sobre"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.layout_cover_page
+msgid "Next"
+msgstr "Siguiente"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.blog_post_short_seo
+msgid "No blog post yet."
+msgstr "Sin entradas aún."
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.layout_cover_page
+msgid "No post defined."
+msgstr "Sin publicación definida."
+
+#. module: website_magazine
+#: selection:website,over_style:0 selection:website,style:0
+msgid "None"
+msgstr "Ninguna"
+
+#. module: website_magazine
+#: selection:website,over_style:0 selection:website,style:0
+msgid "Opacity"
+msgstr "Opacidad"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_over_style
+#: model:ir.model.fields,field_description:website_magazine.field_website_over_style
+msgid "Over Style"
+msgstr "Estílo con puntero encima"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_pagination
+#: model:ir.model.fields,field_description:website_magazine.field_website_pagination
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Pagination"
+msgstr "Paginación"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Post per row"
+msgstr "Publicaciones por fila"
+
+#. module: website_magazine
+#: model:ir.model.fields,help:website_magazine.field_res_config_settings_ppg
+#: model:ir.model.fields,help:website_magazine.field_website_ppg
+msgid "Post shown by page"
+msgstr "Publicación mostrada por página"
+
+#. module: website_magazine
+#: model:ir.model.fields,help:website_magazine.field_res_config_settings_ppr
+#: model:ir.model.fields,help:website_magazine.field_website_ppr
+msgid "Post shown by row"
+msgstr "Publicación mostrada por fila"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_ppg
+#: model:ir.model.fields,field_description:website_magazine.field_website_ppg
+msgid "Posts per Page"
+msgstr "Publicaciones por Página"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Posts per page"
+msgstr "Publicaciones por página"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_ppr
+#: model:ir.model.fields,field_description:website_magazine.field_website_ppr
+msgid "Ppr"
+msgstr "Ppr"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.layout_cover_page
+msgid "Prev"
+msgstr "Anterior"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Primary"
+msgstr "Primario"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.website_cover_page
+msgid "Promote"
+msgstr "Promover"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.website_cover_page
+msgid "Push down"
+msgstr "Bajar"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.website_cover_page
+msgid "Push to bottom"
+msgstr "Empujar hasta abajo"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.website_cover_page
+msgid "Push to top"
+msgstr "Empujar hasta arriba"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.website_cover_page
+msgid "Push up"
+msgstr "Subir"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.website_cover_page
+msgid "Reset"
+msgstr "Restablecer"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_primary_ribbon
+#: model:ir.model.fields,field_description:website_magazine.field_website_primary_ribbon
+msgid "Ribbon 1"
+msgstr "Cintillo 1"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_success_ribbon
+#: model:ir.model.fields,field_description:website_magazine.field_website_success_ribbon
+msgid "Ribbon 2"
+msgstr "Cintillo 2"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_info_ribbon
+#: model:ir.model.fields,field_description:website_magazine.field_website_info_ribbon
+msgid "Ribbon 3"
+msgstr "Cintillo 3"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_warning_ribbon
+#: model:ir.model.fields,field_description:website_magazine.field_website_warning_ribbon
+msgid "Ribbon 4"
+msgstr "Cintillo 4"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_danger_ribbon
+#: model:ir.model.fields,field_description:website_magazine.field_website_danger_ribbon
+msgid "Ribbon 5"
+msgstr "Cintillo 5"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.website_cover_page
+msgid "Ribbons"
+msgstr "Cintillos"
+
+#. module: website_magazine
+#: selection:website,over_style:0 selection:website,style:0
+msgid "Sepia"
+msgstr "Sepia"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_website_size_x
+msgid "Size X"
+msgstr "Tamaño X"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_website_size_y
+msgid "Size Y"
+msgstr "Tamaño Y"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_res_config_settings_style
+#: model:ir.model.fields,field_description:website_magazine.field_website_style
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Style"
+msgstr "Estílo"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_style_name
+msgid "Style Name"
+msgstr "Nombre del Estílo"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_website_style_ids
+msgid "Styles"
+msgstr "Estílos"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Success"
+msgstr "Éxito"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Text in ribbons"
+msgstr "Texto en cintillos"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.blog_post_short_seo
+msgid "Untitled Post"
+msgstr "Post sin título"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.res_config_settings_view_form
+msgid "Warning"
+msgstr "Aviso"
+
+#. module: website_magazine
+#: model:ir.model,name:website_magazine.model_website
+msgid "Website"
+msgstr "Sitio web"
+
+#. module: website_magazine
+#: model:ir.model.fields,field_description:website_magazine.field_blog_post_website_sequence
+msgid "Website Sequence"
+msgstr "Secuencia de sitio web"
+
+#. module: website_magazine
+#: selection:website,over_style:0 selection:website,style:0
+msgid "Zoom"
+msgstr "Acercar"
+
+#. module: website_magazine
+#: selection:website,over_style:0
+msgid "Zoom Clean"
+msgstr "Acercar sin filtro"
+
+#. module: website_magazine
+#: model:ir.model,name:website_magazine.model_blog_post_style
+msgid "blog.post.style"
+msgstr "blog.post.style"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.blog_post_short_seo
+msgid "comment"
+msgstr "comentario"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.blog_post_short_seo
+msgid "comments"
+msgstr "comentarios"
+
+#. module: website_magazine
+#: model:ir.model,name:website_magazine.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.blog_post_short_seo
+msgid "unpublished"
+msgstr "no publicado"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.blog_post_short_seo
+msgid "view"
+msgstr "vista"
+
+#. module: website_magazine
+#: model:ir.ui.view,arch_db:website_magazine.blog_post_short_seo
+msgid "views"
+msgstr "vistas"

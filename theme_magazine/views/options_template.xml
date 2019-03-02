@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--  License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html). -->
+<odoo>
+    <template id="assets_frontend_anchor" inherit_id="website.assets_frontend">
+        <xpath expr=".">
+            <style type="text/less">
+            	 <t t-if="website and website.theme_flexible_id">
+            	 	
+					@import url("//fonts.googleapis.com/css?family=Lato:400,700,400italic");
+            	 	@gray-darker:            <t t-esc="website.theme_magazine_id.gray_darker"/>;
+					@gray-dark:              <t t-esc="website.theme_magazine_id.gray_dark"/>;  
+					@gray:                   <t t-esc="website.theme_magazine_id.gray"/>; 
+					@gray-light:             <t t-esc="website.theme_magazine_id.gray_light"/>;  
+					@gray-lighter:           <t t-esc="website.theme_magazine_id.gray_lighter"/>; 					
+					@brand-default:          <t t-esc="website.theme_magazine_id.brand_default"/>;
+					@brand-primary:          <t t-esc="website.theme_magazine_id.brand_primary"/>;
+					@brand-success:          <t t-esc="website.theme_magazine_id.brand_success"/>;
+					@brand-info:             <t t-esc="website.theme_magazine_id.brand_info"/>;
+					@brand-warning:          <t t-esc="website.theme_magazine_id.brand_warning"/>;
+					@brand-danger:           <t t-esc="website.theme_magazine_id.brand_danger"/>;
+					@brand-color:            <t t-esc="website.theme_magazine_id.brand_color"/>;
+					@body-bg:                <t t-esc="website.theme_magazine_id.body_bg"/>;
+					@text-color:             <t t-esc="website.theme_magazine_id.text_color"/>;
+					@link-color:             <t t-esc="website.theme_magazine_id.link_color"/>;
+					@footer_bg:              <t t-esc="website.theme_magazine_id.body_bg"/>;
+					@footer_text-color:      <t t-esc="website.theme_magazine_id.footer_text_color"/>;
+					@footer_link-color:      <t t-esc="website.theme_magazine_id.footer_link_color"/>;
+					@font-family-sans-serif:  "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+					@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+					@font-family-base:        @font-family-sans-serif;
+					@navbar-height:           <t t-esc="website.theme_magazine_id.navbar_height"/>;
+					@navbar-default-color:    <t t-esc="website.theme_magazine_id.navbar_default_color"/>;
+					@navbar-default-bg:       <t t-esc="website.theme_magazine_id.navbar_default_bg"/>;
+					@navbar-default-border:   <t t-esc="website.theme_magazine_id.navbar_default_border"/>;
+					@breadcrumb-bg:           <t t-esc="website.theme_magazine_id.breadcrumb_bg"/>;
+					@breadcrumb-color:        <t t-esc="website.theme_magazine_id.breadcrumb_color"/>;
+					@breadcrumb-active-color: <t t-esc="website.theme_magazine_id.breadcrumb_active_color"/>;
+					@breadcrumb-separator:    "<t t-esc="website.theme_magazine_id.breadcrumb_separator"/>";
+				</t>
+            </style>
+		</xpath>
+	</template>
+</odoo>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+
+<odoo>
+	<data noupdate="1">
+		 <record id="raleway" model="theme.magazine.font">
+            <field name="name">Raleway</field>
+            <field name="family">sans-serif</field>
+            <field name="paring">Montserrat, Roboto, Oswald</field>
+          </record>
+          <record id="montserrat" model="theme.magazine.font">
+            <field name="name">Montserrat</field>
+            <field name="family">sans-serif</field>
+            <field name="paring">Raleway, Roboto, Oswald</field>
+          </record>
+          <record id="montserrat" model="theme.magazine.font">
+            <field name="name">Rubik</field>
+            <field name="family">sans-serif</field>
+            <field name="paring">Monserrat, Lato</field>
+          </record>
+          <record id="roboto" model="theme.magazine.font">
+            <field name="name">Roboto</field>
+            <field name="family">sans-serif</field>
+            <field name="paring">Raleway, Montserrat, Oswald</field>
+          </record>
+          <record id="Oswald" model="theme.magazine.font">
+            <field name="name">Oswald</field>
+            <field name="family">sans-serif</field>
+            <field name="paring">Raleway, Monserrat, Roboto</field>
+          </record>
+          <record id="Martel" model="theme.magazine.font">
+            <field name="name">Martel</field>
+            <field name="family">serif</field>
+            <field name="paring">Roboto, Raleway, Montserrat</field>
+          </record>
+          <record id="Radium" model="theme.magazine.font">
+            <field name="name">Rhodium Libre</field>
+            <field name="family">serif</field>
+            <field name="paring">Roboto, Raleway</field>
+          </record>
+          <record id="Mate" model="theme.magazine.font">
+            <field name="name">Mate</field>
+            <field name="family">serif</field>
+            <field name="paring">Roboto</field>
+          </record>
+          <record id="sumana" model="theme.magazine.font">
+            <field name="name">Sumana</field>
+            <field name="family">serif</field>
+            <field name="paring">Raleway, Montserrat, Roboto</field>
+          </record>
+          <record id="junge" model="theme.magazine.font">
+            <field name="name">Junge</field>
+            <field name="family">monospace</field>
+          </record>
+          <record id="junge" model="theme.magazine.font">
+            <field name="name">Merriweather</field>
+            <field name="family">serif</field>
+            <field name="paring">Open Sans, Montserrat, Roboto</field>
+          </record>
+          <record id="junge" model="theme.magazine.font">
+            <field name="name">Open Sans</field>
+            <field name="family">sans-serif</field>
+            <field name="paring">Merriweather, Montserrat, Roboto</field>
+          </record>
+	
+	</data>
+</odoo>

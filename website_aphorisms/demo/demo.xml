@@ -1,0 +1,38 @@
+<odoo>
+    <data noupdate="1">
+    
+    	 <record id="steve_jobs" model="website.aphorism.author">
+            <field name="name">Steve Jobs</field>
+        </record>
+        
+        <record id="groucho_marx" model="website.aphorism.author">
+            <field name="name">Groucho Marx</field>
+        </record>
+        
+        <record id="jobs_quote_1" model="website.aphorism">
+            <field name="name">Jobs 1</field>
+            <field name="aphorism"><![CDATA[
+            <p>Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.</p>
+            ]]></field>
+            <field name="author_id"  eval="ref('steve_jobs')" />
+            <field name="source" >Google</field>
+        </record>
+        
+          <record id="jobs_quote_2" model="website.aphorism">
+            <field name="name">Jobs 2</field>
+            <field name="aphorism"><![CDATA[
+            <p>The people who are crazy enough to think they can change the world are the ones who do.</p>
+            ]]></field>
+            <field name="author_id"  eval="ref('steve_jobs')" />
+        </record>
+        
+        <record id="groucho_quote_1" model="website.aphorism">
+            <field name="name">Marx 1</field>
+            <field name="aphorism"><![CDATA[
+            <p>Learn from the mistakes of others. You can never live long enough to make them all yourself.</p>
+            ]]></field>
+            <field name="author_id"  eval="ref('groucho_marx')" />
+        </record>
+    	
+    </data>
+</odoo>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017 LasLabs Inc.
+     License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html). -->
+<odoo>
+		<record id="category_carousel" model="ir.ui.view" >
+	        <field name="name">blog.category.form</field>
+	        <field name="model">blog.category</field>
+	        <field name="inherit_id" ref="website_blog_category_and_author.blog_category_view_form" />
+    		<field name="arch" type="xml">
+	    		<xpath expr="//field[@name='blog_id']" position="after">
+	    			<field name="in_cover" />
+	    			<field name="opinion_section" />
+	    		</xpath>
+	    		<xpath expr="//field[@name='post_count']" position="after">
+	    			<field name="order" />
+	    		</xpath>
+    		</field>
+    	</record>
+</odoo>
+

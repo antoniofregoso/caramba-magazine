@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+
+<odoo>
+	<data noupdate="1">
+	    <record id="website.default_website" model="website">
+	        <field name="theme_magazine_id" ref="theme_magazine.default_theme_magazine"/>
+	    </record>
+	    <record id="website.website2" model="website">
+	        <field name="theme_magazine_id" ref="theme_magazine.default_theme_magazine2"/>
+	    </record>
+    </data>
+</odoo>

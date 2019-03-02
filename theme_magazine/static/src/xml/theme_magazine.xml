@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<!-- License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+
+<template>
+	<t t-name="theme_magazine.TabLayout">
+		<table class="table">
+	            <tr>
+	                <th>Name</th>
+	                <th>Color</th>
+	                <th>Lighter</th>
+	                <th>Light</th>
+	                <th>Dark</th>
+	                <th>Darker</th>
+	            </tr>
+	            <tr>
+	                <th>Alpha</th>
+	                <td>
+	                    <div class="input-group colorpicker-component">
+	                        <input type="text" name="color_alpha" class="form-control"/>
+	                        <span class="input-group-addon"><i></i></span>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_alpha_lighter" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_alpha_light" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_alpha_dark" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_alpha_darker" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	            </tr>
+	            <tr>
+	                <th>Beta</th>
+	                <td>
+	                    <div class="input-group colorpicker-component">
+	                        <input type="text" name="color_beta" class="form-control"/>
+	                        <span class="input-group-addon"><i></i></span>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_beta_lighter" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_beta_light" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_beta_dark" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_beta_darker" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	            </tr>
+	            <tr>
+	                <th>Gamma</th>
+	                <td>
+	                    <div class="input-group colorpicker-component">
+	                        <input type="text" name="color_gamma" class="form-control"/>
+	                        <span class="input-group-addon"><i></i></span>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_gamma_lighter" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_gamma_light" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_gamma_dark" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_gamma_darker" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	            </tr>
+	            <tr>
+	                <th>Delta</th>
+	                <td>
+	                    <div class="input-group colorpicker-component">
+	                        <input type="text" name="color_delta" class="form-control"/>
+	                        <span class="input-group-addon"><i></i></span>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_delta_lighter" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_delta_light" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_delta_dark" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_delta_darker" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	            </tr>
+	            <tr>
+	                <th>Epsilon</th>
+	                <td>
+	                    <div class="input-group colorpicker-component">
+	                        <input type="text" name="color_epsilon" class="form-control"/>
+	                        <span class="input-group-addon"><i></i></span>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_epsilon_lighter" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_epsilon_light" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_epsilon_dark" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	                <td>
+	                    <div class="input-group">
+	                        <input type="number" name="amount_epsilon_darker" class="form-control"/>
+	                        <div class="input-group-addon">%</div>
+	                    </div>
+	                </td>
+	            </tr>
+	        </table>	
+	</t>
+	<t t-name="theme_magazine.TabBrand">
+	
+	</t>
+	<t t-name="theme_magazine.TabColor">
+	
+	</t>
+	<t t-name="theme_magazine.TabFonts">
+	
+	</t>
+	<t t-name="theme_magazine.TabMagazine">
+	
+	</t>
+	<t t-name="theme_magazine.TabCss">
+		 <div>
+            <div name="css"></div>
+        </div>	
+	</t>
+</template>

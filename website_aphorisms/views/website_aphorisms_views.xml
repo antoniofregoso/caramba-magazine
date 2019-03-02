@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!--  License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html). -->
+
+<odoo>
+
+	
+    <menuitem id="website_aphorism_base_menu"
+              name="Aphorisms"
+              parent="website_blog.menu_website_blog_root"
+              sequence="60"
+              />
+
+	<record id="website_aphorism_author_view_tree" model="ir.ui.view">
+        <field name="name">website.aphorism.author.tree</field>
+        <field name="model">website.aphorism.author</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Aphorism Authors">
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+    
+    <record id="website_aphorism_author_view_form" model="ir.ui.view">
+        <field name="name">website.aphorism.author.form</field>
+        <field name="model">website.aphorism.author</field>
+        <field name="arch" type="xml">
+            <form string="Aphorisms Authors">
+               <field name="name" />
+			</form>
+		</field>
+	</record>
+	
+	<record id="website_aphorism_author_action" model="ir.actions.act_window">
+        <field name="name">Authors</field>
+        <field name="res_model">website.aphorism.author</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="website_aphorism_author_menu"
+              name="Author"
+              parent="website_aphorism_base_menu"
+              action="website_aphorism_author_action"
+              sequence="10"
+              />
+              
+    <record id="website_aphorism_view_tree" model="ir.ui.view">
+        <field name="name">website.aphorism.tree</field>
+        <field name="model">website.aphorism</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Aphorisms">
+                <field name="name" />
+                <field name="author_id" />
+            </tree>
+        </field>
+    </record>
+    
+    <record id="website_aphorism_view_form" model="ir.ui.view">
+        <field name="name">website.aphorism.form</field>
+        <field name="model">website.aphorism</field>
+        <field name="arch" type="xml">
+            <form string="Aphorisms">
+                <sheet>
+                    <group>
+                        <group>
+                        	<field name="name" />
+                        </group>
+                        <group>
+                			<field name="author_id" />
+                			<field name="source" />
+                        </group>
+					</group>
+					<group>
+						<field name="aphorism" widget="html" nolabel="1"/>
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
+		<record id="website_aphorism_action" model="ir.actions.act_window">
+        <field name="name">Aphorism</field>
+        <field name="res_model">website.aphorism</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="website_aphorism_menu"
+              name="Aphorisms"
+              parent="website_aphorism_base_menu"
+              action="website_aphorism_action"
+              sequence="20"
+              />
+	
+	
+	
+</odoo>

@@ -1,0 +1,21 @@
+<odoo>
+
+	<template id="s_aphorism" name="Aphorism">
+		<section class="s_text_block">
+	        <div class="container">
+	        	 <div class="row">
+	                <div class="col-md-12 mb16 mt16">
+	                	<t t-set="aphorism" t-value="website.get_aphorism()[0]" />
+	                	<blockquote>
+	                		<t t-raw="aphorism['aphorism']" />
+	                		<small class="blockquote-footer"><t t-esc="aphorism['author']"/><t t-if="aphorism['source']"> in <cite t-esc="aphorism['source']" /></t></small>
+	                	</blockquote>
+	                </div>
+	             </div>        
+	        </div>
+	     </section>
+	  </template>
+
+
+   
+</odoo>

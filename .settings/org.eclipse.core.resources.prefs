@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//website_aphorisms/__init__.py=utf-8
+encoding//website_aphorisms/__manifest__.py=utf-8
+encoding//website_aphorisms/models/__init__.py=utf-8
+encoding//website_aphorisms/models/website.py=utf-8
+encoding//website_aphorisms/models/website_aphorism.py=utf-8
+encoding//website_magazine_footer/__init__.py=utf-8
+encoding//website_magazine_footer/__manifest__.py=utf-8
+encoding//website_magazine_footer/models/__init__.py=utf-8
+encoding//website_magazine_footer/models/website.py=utf-8
+encoding//website_magazine_header/__init__.py=utf-8
+encoding//website_magazine_header/__manifest__.py=utf-8
+encoding//website_magazine_header/models/res_config_settings.py=utf-8
+encoding//website_magazine_header/models/website.py=utf-8

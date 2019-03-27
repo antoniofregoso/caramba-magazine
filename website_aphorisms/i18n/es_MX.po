@@ -1,0 +1,166 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_aphorisms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-26 15:30+0000\n"
+"PO-Revision-Date: 2019-03-26 09:40-0600\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: website_aphorisms
+#: model:ir.actions.act_window,name:website_aphorisms.website_aphorism_action
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism__aphorism
+msgid "Aphorism"
+msgstr "Aforismo"
+
+#. module: website_aphorisms
+#: model_terms:ir.ui.view,arch_db:website_aphorisms.website_aphorism_author_view_tree
+msgid "Aphorism Authors"
+msgstr "Autores"
+
+#. module: website_aphorisms
+#: model:ir.ui.menu,name:website_aphorisms.website_aphorism_base_menu
+#: model:ir.ui.menu,name:website_aphorisms.website_aphorism_menu
+#: model_terms:ir.ui.view,arch_db:website_aphorisms.website_aphorism_view_form
+#: model_terms:ir.ui.view,arch_db:website_aphorisms.website_aphorism_view_tree
+msgid "Aphorisms"
+msgstr "Aforismos"
+
+#. module: website_aphorisms
+#: model_terms:ir.ui.view,arch_db:website_aphorisms.website_aphorism_author_view_form
+msgid "Aphorisms Authors"
+msgstr "Autores"
+
+#. module: website_aphorisms
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism__author_id
+#: model:ir.ui.menu,name:website_aphorisms.website_aphorism_author_menu
+msgid "Author"
+msgstr "Autor"
+
+#. module: website_aphorisms
+#: model:ir.actions.act_window,name:website_aphorisms.website_aphorism_author_action
+msgid "Authors"
+msgstr "Autores"
+
+#. module: website_aphorisms
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism__create_uid
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism_author__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: website_aphorisms
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism__create_date
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism_author__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: website_aphorisms
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism__display_name
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism_author__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: website_aphorisms
+#: model:website.aphorism,source:website_aphorisms.jobs_quote_1
+msgid "Google"
+msgstr ""
+
+#. module: website_aphorisms
+#: model:website.aphorism.author,name:website_aphorisms.groucho_marx
+msgid "Groucho Marx"
+msgstr ""
+
+#. module: website_aphorisms
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism__id
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism_author__id
+msgid "ID"
+msgstr ""
+
+#. module: website_aphorisms
+#: model:website.aphorism,name:website_aphorisms.jobs_quote_1
+msgid "Jobs 1"
+msgstr ""
+
+#. module: website_aphorisms
+#: model:website.aphorism,name:website_aphorisms.jobs_quote_2
+msgid "Jobs 2"
+msgstr ""
+
+#. module: website_aphorisms
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism____last_update
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism_author____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: website_aphorisms
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism__write_uid
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism_author__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: website_aphorisms
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism__write_date
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism_author__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: website_aphorisms
+#: model_terms:website.aphorism,aphorism:website_aphorisms.groucho_quote_1
+msgid "Learn from the mistakes of others. You can never live long enough to make them all yourself."
+msgstr "Aprende de los errores de los demás. Nunca puedes vivir el tiempo suficiente para hacerlos todos tú mismo."
+
+#. module: website_aphorisms
+#: model:website.aphorism,name:website_aphorisms.groucho_quote_1
+msgid "Marx 1"
+msgstr ""
+
+#. module: website_aphorisms
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism__name
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism_author__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: website_aphorisms
+#: model_terms:website.aphorism,aphorism:website_aphorisms.jobs_quote_1
+msgid "Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations."
+msgstr "A veces, cuando innovas, cometes errores. Es mejor admitirlos rápidamente y seguir mejorando sus otras innovaciones."
+
+#. module: website_aphorisms
+#: model:ir.model.fields,field_description:website_aphorisms.field_website_aphorism__source
+msgid "Source"
+msgstr ""
+
+#. module: website_aphorisms
+#: model:website.aphorism.author,name:website_aphorisms.steve_jobs
+msgid "Steve Jobs"
+msgstr ""
+
+#. module: website_aphorisms
+#: model_terms:website.aphorism,aphorism:website_aphorisms.jobs_quote_2
+msgid "The people who are crazy enough to think they can change the world are the ones who do."
+msgstr "Las personas que están lo suficientemente locas como para pensar que pueden cambiar el mundo son las que lo hacen."
+
+#. module: website_aphorisms
+#: model:ir.model,name:website_aphorisms.model_website
+msgid "Website"
+msgstr "Sitio web"
+
+#. module: website_aphorisms
+#: model:ir.model,name:website_aphorisms.model_website_aphorism
+msgid "Website Aphorism"
+msgstr "Aforimos en sitio web"
+
+#. module: website_aphorisms
+#: model:ir.model,name:website_aphorisms.model_website_aphorism_author
+msgid "Website Aphorism Author"
+msgstr "Autor"

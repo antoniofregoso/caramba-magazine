@@ -1,0 +1,141 @@
+<odoo>
+    <data>
+    
+	    <template id="assets_frontend" inherit_id="website.assets_frontend" name="Brand Nav-bar Front-end assets">
+	    	<xpath expr="." position="inside">
+	      		<link type="text/css" rel="stylesheet" href="/website_magazine_header/static/src/css/navbar_brand.css"/>
+	    	</xpath>
+		</template>
+
+        <template id="navbar_brand" name="Brand Navigation Bar"  inherit_id="portal.frontend_layout">
+        	  <xpath expr="//nav[hasclass('navbar', 'navbar-expand-md', 'navbar-light',  'bg-light')]" position="replace">
+        	  <div id="aQuote" class="overlay overlay-nav">
+        			<a href="javascript:void(0)" class="closebtn" onclick="closeAQuote()">&amp;times</a>
+				  <div class="overlay-quote-content">
+				  		<t t-call="website_aphorisms.s_aphorism"/>
+				  </div>
+				</div>
+				 <div id="aNav" class="overlay overlay-nav">        			
+				  <div class="pt-5 ">
+				  <a href="/" class="navbar-brand logo">
+                                <img t-att-src="'/logo.png?company=%s' % res_company.id" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name" class="mx-auto d-block"/>
+                            </a>
+				  		<ul class="mt-3 list-group" >
+        	  		<t t-foreach="website.menu_id.child_id" t-as="submenu">
+			            <t t-call="website.submenu">
+			                <t t-set="item_class" t-value="'list-group-item'"/>
+			                <t t-set="link_class" t-value="'nav-link'"/>
+			            </t>
+			        </t>		        
+                                    <li class="list-group-item nav-item dropdown" t-ignore="true" t-if="not user_id._is_public()">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                            <b>
+                                                <span t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name"/>
+                                            </b>
+                                        </a>
+                                        <div class="dropdown-menu js_usermenu" role="menu">
+                                            <a id="o_logout" class="dropdown-item" t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a>
+                                        </div>
+                                    </li>
+                                     <li groups="base.group_public" class="list-group-item">
+                <a t-attf-href="/web/login" class="nav-link">
+                    <b>Sign in</b>
+                </a>
+            </li>
+			        </ul>
+				  </div>
+				</div>
+        		
+        		<div id="searchNav" class="overlay overlay-search">
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">&amp;times</a>
+				  <div class="overlay-content">
+				  		<form  t-att-action="'/blog/' + slug(website.search_blog_id)" method="get" t-att-class="search_class">
+				  			<t t-call="website.website_search_box" />
+				  		</form>
+				  </div>
+				</div>
+        	  <t t-set="h_color" t-value="' '" />
+				<t t-if="color">
+					<t t-set="h_color" t-value="'background-color:' + color + '!important;'" />
+				</t>
+				  <t t-elif="blog_post" >
+				  	<t t-if="blog_post.website_category_id">
+						<t t-set="h_color" t-value="'background-color:' + blog_post.website_category_id.color + '!important;'" />
+					</t>
+				</t> 
+        	  	<nav class="navbar" t-att-style="h_color" >
+        	  	<div class="container">
+        	  		<button class="btn btn-default hidden-xs mr-auto d-none d-sm-block" type="button"  onclick="openAQuote()"><span class="fa fa-quote-right"></span></button>
+					<button class="btn btn-default hidden-xs mr-auto d-block d-sm-none" type="button"  onclick="openANav()">  <span class="fa fa-bars"/></button>
+        	  		<a href="/" class="navbar-brand logo">
+                                <img t-att-src="'/logo.png?company=%s' % res_company.id" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name" class="img-fluid mg-logo" />
+                            </a>
+                        <button class="btn btn-default search-submit ml-auto" type="button" onclick="openSearch()"><span class="fa fa-search"></span></button>     
+        	  	</div>
+        	  	</nav>
+        	  	<nav class="navbar navbar-expand-md navbar-light ">
+        	  		<div class="container">
+        	  		<div class="collapse navbar-collapse" id="top_menu_collapse">
+        	  		<ul class="nav navbar-nav mr-auto text-right">
+        	  		<t t-foreach="website.menu_id.child_id" t-as="submenu">
+			            <t t-call="website.submenu">
+			                <t t-set="item_class" t-value="'nav-item'"/>
+			                <t t-set="link_class" t-value="'nav-link'"/>
+			            </t>
+			        </t>
+			        </ul>
+        	  			<ul class="nav navbar-nav ml-auto text-right" id="top_menu">
+                                    <li class="nav-item divider" t-ignore="true" t-if="not user_id._is_public()"/>
+                                    <li class="nav-item dropdown" t-ignore="true" t-if="not user_id._is_public()">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                            <b>
+                                                <span t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name"/>
+                                            </b>
+                                        </a>
+                                        <div class="dropdown-menu js_usermenu" role="menu">
+                                            <a id="o_logout" class="dropdown-item" t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a>
+                                        </div>                                         
+                                    </li>
+                                    <li groups="base.group_public" class="nav-item">
+							                <a t-attf-href="/web/login" class="nav-link">
+							                    <b>Sign in</b>
+							                </a>
+							            </li>
+                                </ul>
+                           </div>
+        	  		</div>
+        	  	</nav>
+        	  
+        	  </xpath>
+        </template>
+        
+        <template id="navbar_brand_scripts" name="Brand Navigation Bar Scripts"  inherit_id="website.layout">
+        	 <xpath expr="//div[@id='wrapwrap']" position="after"> 
+        		<script>
+					function openSearch() {
+					    document.getElementById("searchNav").style.height = "100%";
+					}
+					
+					function closeSearch() {
+					    document.getElementById("searchNav").style.height = "0%";
+					}
+					
+					function openANav() {
+					    document.getElementById("aNav").style.width = "100%";
+					}
+					
+					function closeANav() {
+					    document.getElementById("aNav").style.width = "0%";
+					}
+					function openAQuote() {
+					    document.getElementById("aQuote").style.width = "100%";
+					}
+					
+					function closeAQuote() {
+					    document.getElementById("aQuote").style.width = "0%";
+					}
+				</script>
+        	</xpath>
+        </template>
+    </data>
+</odoo>

@@ -68,8 +68,9 @@
     right: 5px;
     font-size: 100%;
 }
-
-
+.mg-logo {
+	max-width:10px;
+}
 
 @media screen and (max-height: 450px) {
   .overlay {overflow-y: auto;}
@@ -80,8 +81,5 @@
     right: 35px;
 }
 
-.mg-logo {
-	
-	 max-width: 30%;
-}
+
 

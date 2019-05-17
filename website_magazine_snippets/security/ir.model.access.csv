@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_website_magazine_snippets_website_magazine_snippets,website_magazine_snippets.website_magazine_snippets,model_website_magazine_snippets_website_magazine_snippets,,1,0,0,0

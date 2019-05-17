@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="website_magazine_snippets" inherit_id="website.snippets" name="Snippet Magazine">
+    <xpath expr="//div[@id='snippet_structure']" position="after">
+	    <div id="snippet_magazine" class="o_panel">
+	                <div class="o_panel_header">
+	                    <i class="fa fa-book-open"/> Magazine
+	                </div>
+	                <div class="o_panel_body">
+				        <t t-snippet="website_magazine_snippets.s_magazine_text_over" t-thumbnail="/website_magazine_snippets/static/src/img/snippets_thumbs/block_magazine_text_over.png"/>
+				        <t t-snippet="website_magazine_snippets.s_magazine_div_over" t-thumbnail="/website_magazine_snippets/static/src/img/snippets_thumbs/block_magazine_div_over.png"/>        
+				        <t t-snippet="website_magazine_snippets.s_magazine_cards" t-thumbnail="/website_magazine_snippets/static/src/img/snippets_thumbs/block_magazine_cards.png"/>       
+				        <t t-snippet="website_magazine_snippets.s_magazine_opinion" t-thumbnail="/website_magazine_snippets/static/src/img/snippets_thumbs/block_magazine_opinion.png"/>       
+				        <t t-snippet="website_magazine_snippets.s_magazine_carousel" t-thumbnail="/website_magazine_snippets/static/src/img/snippets_thumbs/block_magazine_carousel.png"/>
+				   </div>
+			</div>	   
+    </xpath>
+    
+    
+</template>
+
+<template id="s_magazine_text_over" name="Text On Image">
+    <section class="s_latest_posts_big_picture">
+        <div class="container-fluid">
+            <h2 class="text-center">Latest Posts</h2>
+            <div class="row js_get_posts"
+                data-loading="true"
+                data-template="website_magazine_snippets.s_magazine_text_over_template"/>
+        </div>
+    </section>
+</template>
+
+<template id="s_magazine_div_over" name="Canva On Image">
+    <section class="s_latest_posts_big_picture">
+        <div class="container-fluid">
+            <h2 class="text-center">Latest Posts</h2>
+            <div class="row js_get_posts"
+                data-loading="true"
+                data-template="website_blog.s_latest_posts_big_picture_template"/>
+        </div>
+    </section>
+</template>
+
+<template id="s_magazine_cards" name="Cards">
+    <section class="s_latest_posts_big_picture">
+        <div class="container-fluid">
+            <h2 class="text-center">Latest Posts</h2>
+            <div class="row js_get_posts"
+                data-loading="true"
+                data-template="website_blog.s_latest_posts_big_picture_template"/>
+        </div>
+    </section>
+</template>
+
+<template id="s_magazine_opinion" name="Opinion Section">
+    <section class="s_latest_posts_big_picture">
+        <div class="container-fluid">
+            <h2 class="text-center">Latest Posts</h2>
+            <div class="row js_get_posts"
+                data-loading="true"
+                data-template="website_blog.s_latest_posts_big_picture_template"/>
+        </div>
+    </section>
+</template>
+
+<template id="s_magazine_carousel" name="Categories">
+    <section class="s_latest_posts_big_picture">
+        <div class="container-fluid">
+            <h2 class="text-center">Latest Posts</h2>
+            <div class="row js_get_posts"
+                data-loading="true"
+                data-template="website_blog.s_latest_posts_big_picture_template"/>
+        </div>
+    </section>
+</template>
+
+
+
+</odoo>
